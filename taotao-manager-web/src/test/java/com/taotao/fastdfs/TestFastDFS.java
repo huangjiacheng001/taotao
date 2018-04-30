@@ -1,3 +1,4 @@
+/*
 package com.taotao.fastdfs;
 
 
@@ -12,7 +13,7 @@ public class TestFastDFS {
 		//1、向工程中添加jar包
 		//2、创建一个配置文件。配置tracker服务器地址
 		//3、加载配置文件
-		ClientGlobal.init("E:\\Users\\taotao\\taotao-manager-web\\src\\main\\resources\\resource\\client.conf");
+		ClientGlobal.init("D:\\WorkSpace\\taotao\\taotao-manager-web\\src\\main\\resources\\resource\\client.conf");
 		//4、创建一个TrackerClient对象。
 		TrackerClient trackerClient = new TrackerClient();
 		//5、使用TrackerClient对象获得trackerserver对象。
@@ -31,8 +32,9 @@ public class TestFastDFS {
 	
 	@Test
 	public void testFastDfsClient() throws Exception {
-		FastDFSClient fastDFSClient = new FastDFSClient("E:\\Users\\taotao\\taotao-manager-web\\src\\main\\resources\\resource\\client.conf");
+		FastDFSClient fastDFSClient = new FastDFSClient("D:\\WorkSpace\\taotao\\taotao-manager-web\\src\\main\\resources\\resource\\client.conf");
 		String string = fastDFSClient.uploadFile("D:/Documents/Pictures/images/20.jpg", "jpg");
 		System.out.println(string);
 	}
 }
+*/
